@@ -26,6 +26,7 @@
 > 회귀 오류: 이전에 제대로 작동하는 기능에 문제가 생기는 것
 
 ### 1.4 테스트 주도 개발 간단 정리
+![Alt text](https://github.com/Hyunhoo-Kwon/tdd/blob/master/chapter01/images/TDD%20%EC%A3%BC%EA%B8%B0%EC%9D%98%20%ED%95%B5%EC%8B%AC.png)
 - TDD 핵심 주기
   1. 테스트를 작성한다.
   2. 해당 테스트가 동작하게 만들 코드를 작성한다.
@@ -39,6 +40,7 @@
 - 테스트 주도 개발의 황금률: 실패하는 테스트 없이는 새 기능을 작성하지 말라.
 
 ### 1.5 좀 더 큰 그림
+![Alt text](https://github.com/Hyunhoo-Kwon/tdd/blob/master/chapter01/images/TDD%20%EB%82%B4%EC%97%90%EC%84%9C%EC%9D%98%20%EC%95%88%EB%B0%96%20%ED%94%BC%EB%93%9C%EB%B0%B1%20%EA%B3%A0%EB%A6%AC.png)
 - 어떤 기능을 구현할 때 인수 테스트(acceptance test)를 작성하는 것으로 시작한다.
   - 인수 테스트를 사용해 작성하려는 코드가 실제로 필요한지 가늠한다.
   - 인수 테스트 하에서는 단위 수준의 테스트/구현/리팩터링 주기를 따라 기능을 개발한다.
