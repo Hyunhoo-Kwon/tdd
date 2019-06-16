@@ -12,4 +12,12 @@ public class SubDateTest {
         assertThat(subDate.getYearDay(2), is(365));
     }
 
+    @Test
+    public void testLeapYear() {
+        SubDate subDate = new SubDate();
+        assertThat(subDate.isLeapYear(0), is(true));
+        assertThat(subDate.isLeapYear(1), is(false));
+        assertThat(subDate.isLeapYear(4), is(true));
+    }
+
 }
