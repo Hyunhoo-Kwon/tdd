@@ -202,7 +202,7 @@ return result;
 }
 ```
 
-### 전체코드: https://github.com/Hyunhoo-Kwon/tdd/tree/getYearDay/tdd-example/src
+### getYearDay 구현코드: https://github.com/Hyunhoo-Kwon/tdd/tree/getYearDay/tdd-example/src
 
 ### 참고
 - [테스트 주도 개발 - 점프 투 자바](https://wikidocs.net/224)
