@@ -13,12 +13,16 @@ public class SubDateTest {
         subDate = new SubDate();
     }
 
-
     @Test
     public void testGetYearDay() {
         assertThat(subDate.getYearDay(1), is(0));
         assertThat(subDate.getYearDay(2), is(365));
         assertThat(subDate.getYearDay(5), is(365+365+365+366));
+    }
+
+    @Test(expected = RuntimeException.class)
+    public void testGetYearDayWithInvalidYear() {
+        subDate.getYearDay(-1);
     }
 
     @Test

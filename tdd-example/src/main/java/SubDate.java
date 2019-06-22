@@ -1,6 +1,9 @@
 public class SubDate {
 
     public int getYearDay(int year) {
+        if(year<0)
+            throw new RuntimeException("Invalid year");
+
         int result = 0;
         for(int i=1; i<year; i++) {
             if (isLeapYear(i))
